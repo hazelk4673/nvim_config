@@ -41,7 +41,7 @@ vim.o.backspace = "indent,eol,start"
 vim.o.guicursor = "n-v-c:block,i-ci-ve:block,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
 -- folding
-vim.o.foldmethod = "expr"
+vim.o.foldmethod = "syntax"
 vim.o.foldexpr = "nvim_treesitter#foldexpr()"
 vim.o.foldlevel = 99
 
